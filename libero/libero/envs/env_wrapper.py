@@ -96,7 +96,7 @@ class ControlEnv:
             except RandomizationError:
                 pass
             finally:
-                continue
+                pass
 
         return ret
 
